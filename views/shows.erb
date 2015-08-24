@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Top Articles from 96</title>
+		<link rel="stylesheet" href="/style.css">
+  </head>
+	<div class="body">
+	  <body>
+	    <h1>Top Articles from 1996</h1>
+			<ul>
+				<table style="width:100%">
+	  <tr>
+	    <th>Title</th>
+	    <th>URL</th>
+	    <th>Description</th>
+	  </tr>
+			<% list.each do |article| %>
+	  <tr>
+	    <td><%= article["name"] %></td>
+	    <td><a href="<%= article["url"] %>"> <%= article["url"] %></a></td>
+	    <td><%= article["description"] %></td>
+	  </tr>
+		<% end %>
+	</table>
+		</ul>
+		<a href = "/articles/new">
+			<img id="button" src="http://www.kidshopeusa.org/uploadedImages/Library_Assets/Images/donate%20button.gif" style="width:130px;height:50px;">
+		</a>
+	<a href = "/articles">
+		<img id="advertisement" src="http://static.guim.co.uk/sys-images/Money/Pix/pictures/2014/10/15/1413384770596/Madbid-advert-014.jpg" style="width:640px;height:500px;">
+	</a>
+	  </body>
+	</div>
+</html>

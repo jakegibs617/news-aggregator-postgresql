@@ -1,0 +1,29 @@
+body {
+  /* Use a "Matrix"-style color scheme. */
+  background-color: rgb(255, 227, 204);
+  color: rgb(140, 149, 171);
+
+  font-family: Helvetica;
+  font-size: 1em;
+
+
+}
+
+.body {
+	text-align: center;
+}
+
+form {
+padding-left: 20px;
+}
+
+#button {
+	margin-left: 615px;
+	margin-top: 20px;
+}
+
+#advertisement {
+	border-radius: 10px;
+
+
+}
